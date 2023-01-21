@@ -13,7 +13,6 @@
 
 import SwiftIO
 
-#if SWIFTIOFEATHER
 
 public enum Id: Int32, IdName {
     public var value: Int32 {
@@ -44,4 +43,3 @@ public enum Id: Int32, IdName {
     case I2SIn0 = 0x0800
 }
 
-#endif
